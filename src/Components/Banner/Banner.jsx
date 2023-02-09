@@ -1,5 +1,5 @@
 import React from "react";
-import { BannerDiv, ImgBanner, TitleBanner, PBanner } from "./BannerStyle";
+import { BannerDiv, ImgBanner, TitleBanner, PBanner } from "./Style";
 import JordanBanner from "../../Assets/JordanBanner.png"
 
 function Banner() {

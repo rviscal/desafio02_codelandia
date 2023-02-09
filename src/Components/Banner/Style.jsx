@@ -2,19 +2,18 @@ import styled from "styled-components";
 
 export const BannerDiv = styled.div`
 position: relative;
-width: 1920px;
+width: 100%;
 height: 378px;
 background:#181818;
 `
 export const ImgBanner = styled.img`
 position: absolute;
-width: 1920px;
+width: 100%;
 height: 377px;
 opacity:0.6;
 `
 export const TitleBanner = styled.h1`
 position: absolute;
-width: 590px;
 height: 59px;
 left: 100px;
 top: 60px;
