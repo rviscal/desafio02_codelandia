@@ -1,18 +1,20 @@
 import React from "react";
-import { Boddy, Promo, PromoText, H1Jordan } from './containerStyle';
+import { Body, Promo, PromoText, Htext,Ptext2,Ptext3 } from './ContainerStyle';
 import Banner from "./Banner";
 
 function Container() {
     return (
         <>
-            <Boddy>
+            <Body>
                 <Promo>
                     <PromoText>Ganhe R$ 10,00 de desconto no frete</PromoText>
                 </Promo>
-                <H1Jordan>JordanShoes</H1Jordan>
+                <Htext>JordanShoes</Htext>
                 <Banner />
+                <Ptext2>Destaques</Ptext2>
+                <Ptext3>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </Ptext3>
 
-            </Boddy>
+            </Body>
         </>
     )
 }
