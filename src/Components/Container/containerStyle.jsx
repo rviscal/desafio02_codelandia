@@ -15,5 +15,15 @@ background: #181818;
 `
 export const PromoText = styled.p`
 color:#F9F9F9;
-font-size: 16px
+font-size: 16px;
 `
+export const H1Jordan = styled.h1`
+margin-left: 880px;
+width: 160px;
+height: 29px;
+color: #181818;
+font-size: 24px;
+`
+
+
+
