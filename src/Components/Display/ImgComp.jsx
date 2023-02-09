@@ -1,14 +1,22 @@
 import React from "react";
+import { Box1 } from "./Style";
 import ImgData from "./ImgData";
-import { Box1 } from "./Style.jsx";
 
-function img() {
+
+function ImgRender () {
+    
+  const Listimg= ImgData.map((item,i)=>{
+    return(
+      <img key={i} src={item.url} alt='img'/>
+    )
+  })
+ 
   return (
-    <div>
-      {ImgData.map((item) => (
-        <Box1>{item}</Box1>
-      ))}
-    </div>
+    <>
+    <Box1>
+      {Listimg}
+    </Box1>
+    </>
   );
-}
-export default img;
+  }
+export default ImgRender;

@@ -1,13 +1,12 @@
 import React from "react";
 import {  Container } from "./Style";
-import IMg2 from "./ImgComp";
+import ImgRender from "./ImgComp";
 
 function Display() {
-  return(
-   <Container>
-    <IMg2>
-    
-  </Container>
-  )
+  return (
+    <Container>
+      {ImgRender}
+    </Container>
+  );
 }
 export default Display;
