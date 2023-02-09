@@ -5,9 +5,7 @@ position: relative;
 width: 1920px;
 height: 378px;
 background:#181818;
-
 `
-
 export const ImgBanner = styled.img`
 position: absolute;
 width: 1920px;
@@ -23,7 +21,6 @@ top: 60px;
 background:none;
 font-size: 48px;
 color: #F9F9F9;
-
 `
 export const PBanner = styled.p`
 position: absolute;
