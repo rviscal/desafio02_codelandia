@@ -1,18 +1,17 @@
-
-@font-face{
-  font-family:"Montserrat";
+@font-face {
+  font-family: "Montserrat";
   src: local("Montserrat-Regular"),
-  url("./fonts/Montserrat-Regular.ttf") format("truetype");
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
-p{
-  font-family: 'Montserrat';
-  color: #717171; 
+p {
+  font-family: "Montserrat";
+  color: #717171;
 }
-h1{
-  font-family: 'Montserrat';
+h1 {
+  font-family: "Montserrat";
 }
 
 body {
   margin: 0;
-} 
+}

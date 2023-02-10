@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-export const Body = styled.body`
-  width: 100vw;
-  height: 100vh;
-  `;
-export const Promo = styled.div`
+export const BarBlack = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,12 +8,12 @@ export const Promo = styled.div`
   height: 60px;
   background: #181818;
 `;
-export const PromoText = styled.p`
+export const BpText = styled.p`
   color: #f9f9f9;
   font-size: 16px;
 `;
 export const Htext = styled.h1`
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 29px;
   color: #181818;
@@ -25,7 +21,7 @@ export const Htext = styled.h1`
 `;
 export const Ptext2 = styled.p`
   margin-top: 90px;
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 29px;
   color: #181818;
@@ -33,7 +29,7 @@ export const Ptext2 = styled.p`
 `;
 export const Ptext3 = styled.p`
   margin-top: 50px;
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 24px;
   color: #474747;
